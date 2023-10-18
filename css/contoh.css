@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background-color:lightgray;
+}
+
+.div-utama{
+    max-width: 1080px;
+    margin :20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+header{
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+
+header h1{
+    margin-bottom: 8px;
+    font-size :35px;
+}
+
+.navigasi ul{
+    list-style-type: none;
+    margin: 0;
+    padding :0;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.navigasi ul li{
+    float : left;
+}
+
+.navigasi ul li a{
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navigasi li a:hover{
+    background-color: red;
+    transition-duration:1.5s;
+}
+.banner img{
+    width: 100%;
+    height: 330px;
+    display: block;
+}
+
+.left{
+    max-width: 20%;
+	margin-top: 15px;
+	margin-right: 5px; 
+	background-color: white;
+	padding: 15px;
+	border: 1px solid lightgrey; 
+	overflow: hidden;
+	display: block;
+	margin-bottom: 15px;
+	float: left;
+}
+
+.main{
+    max-width: 60%;
+	margin-top: 15px;
+	margin-right: 5px; 
+	background-color: white;
+	padding: 15px;
+	border: 1px solid lightgrey; 
+	overflow: hidden;
+	display: block;
+	margin-bottom: 15px;
+	float: left;   
+}
+.right{
+    max-width: 20%;
+	margin-top: 15px; 
+	background-color: white;
+	padding: 15px;
+	border: 1px solid lightgrey; 
+	overflow: hidden;
+	display: block;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+footer{
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+}
+
+.rightbottom-div{
+	max-width: 20%;
+	margin-top: 15px; 
+	background-color: white;
+	padding: 15px;
+	border: 1px solid lightgrey; 
+	overflow: hidden;
+	display: block;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.leftbutton{
+	width: 70px;
+	height: 35px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+.contentbutton{
+	width: 110px;
+	height: 35px;
+	background-color: orange;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
